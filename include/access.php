@@ -71,9 +71,9 @@
         <div class="col">
             <div class="jumbotron">
                 <div class="start_station">      
-                    <h5 class="text-primary">Estación de inicio: <span class="badge badge-primary"><?= $s_station[0] ?></span></h5>
-                    <h5 class="text-primary">Estación de destino: <span class="badge badge-primary"><?= $d_station[0] ?></span></h5>
-                    <h5 class="text-primary">Metrobus: <span class="badge badge-primary"><?= $selected ?></span></h5>
+                    <h5 class="text-dark">Estación de inicio: <span class="badge badge-primary"><?= $s_station[0] ?></span></h5>
+                    <h5 class="text-dark">Estación de destino: <span class="badge badge-primary"><?= $d_station[0] ?></span></h5>
+                    <h5 class="text-dark">Metrobus: <span class="badge badge-primary"><?= $selected ?></span></h5>
                     <h4 class="text-primary">Ahora estás conectado!</h4>               
                 </div>
             </div>

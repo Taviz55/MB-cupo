@@ -65,20 +65,16 @@
 </head>
 
 <body> 
-<!--
-  <input type="text" id="end" value=" $end_station; ?>">
-  <input type="text" id="m_selected" value=" $selected; ?>">
-  <input type="text" id="passen" value=" $passengers ?>">
--->
+
    <div class="container-fluid">  
      <div class="row" id="main">
         <div class="col">
             <div class="jumbotron">
                 <div class="start_station">      
-                    <h5>Estación de inicio: <span class="badge badge-light"><?= $s_station[0] ?></span></h5>
-                    <h5>Estación de destino: <span class="badge badge-light"><?= $d_station[0] ?></span></h5>
-                    <h5>Metrobus: <span class="badge badge-light"><?= $selected ?></span></h5>
-                    <h4>Ahora estás conectado!</h4>               
+                    <h5 class="text-primary">Estación de inicio: <span class="badge badge-primary"><?= $s_station[0] ?></span></h5>
+                    <h5 class="text-primary">Estación de destino: <span class="badge badge-primary"><?= $d_station[0] ?></span></h5>
+                    <h5 class="text-primary">Metrobus: <span class="badge badge-primary"><?= $selected ?></span></h5>
+                    <h4 class="text-primary">Ahora estás conectado!</h4>               
                 </div>
             </div>
         </div>

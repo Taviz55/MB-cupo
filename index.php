@@ -32,8 +32,8 @@
         <div class="col">
             <div class="jumbotron">
                 <div class="start_station">      
-                    <h5>Estación de inicio: <span class="badge badge-light"><?= $start_station[1] ?></span></h5>
-                    <h5>Metrobus: <span class="badge badge-light"><?= $selected_metrobus[0] ?></span></h5>               
+                    <h5 class="text-primary">Estación de inicio: <span class="badge badge-primary"><?= $start_station[1] ?></span></h5>
+                    <h5 class="text-primary">Metrobus: <span class="badge badge-primary"><?= $selected_metrobus[0] ?></span></h5>               
                 </div>
                 <div id="content">
                     <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#connection_wifi">Conectarse a Wi-Fi</button>

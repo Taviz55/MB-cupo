@@ -1,11 +1,11 @@
 body{
-    background-color: #ecf0f1;
+    background-color: #fdfdfe;
     margin: 0;
     padding: 0;
 }
 
 .jumbotron{
-    background-color: #dc3545;
+    background: #fdfdfe;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +29,7 @@ h5{
 }
 
 .modal-header{
-    background-color: #dc3545;
+    background-color: #007bff;
     color: #ecf0f1;
     text-align: center;
 }
@@ -48,16 +48,21 @@ h5{
 }
 
 .table thead th{
-    color: #dc3545;
+    color: #007bff;
     text-align: center;
+    font-size: 14px;
 }
 
 .table tbody td{
   text-align: center;  
 }
 
+.table tbody td:nth-child(3){
+    font-size: 16px;
+    
+}
 
-.sobreCupo{ background: #E91E63; color: #333; }
+.sobreCupo{ background: #b71c1c; color: #333; }
 .cupoAlto{ background: #d35400; color: #333; }
 .cupoBajo{ background: #FFEB3B; color: #333; }
 

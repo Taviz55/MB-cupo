@@ -5,7 +5,7 @@ body{
 }
 
 .jumbotron{
-    background: #fdfdfe;
+    background: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
